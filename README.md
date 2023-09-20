@@ -4,44 +4,54 @@
     <img src="https://raw.githubusercontent.com/ShaanCoding/ReadME-Generator/main/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">LEARN REACT PROJECT</h3>
+  <h3 align="center">LEARN REACT JS</h3>
 
   <p align="center">
     I use this project for my learning outcomes about React
   </p>
 </p>
 
-### Prerequisite
+### Built With
 
-1. Make sure you master HTML & CSS material
+- [REACT](https://react.dev/)
+- [VITE JS](https://vitejs.dev/)
 
-2. Make sure you master Javascript Fundamental
+### Getting Started
 
-3. Make sure you master DOM
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-4. Make sure you master Modern Javascript (ES6)
+### Installation
 
-5. Make sure you master GIT & CLI (Command Line Interface)
+1. Make sure you have Node.js and npm installed on your machine.
 
-6. Make sure you master Package Manager (NodeJS + NPM)
+2. Clone this repository to your local machine or download the source code.
 
-### Prerequisite Modern Javascript (ES6)
+   ```
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
 
-1. Make sure you know the ES6 Variable material
+3. Navigate to the project directory in your terminal.
 
-2. Make sure you know the Functions & Arrow Functions material
+4. Install project dependencies using NPM:
 
-3. Make sure you know the Objects & Class material
+   ```
+   pnpm install
+   ```
 
-4. Make sure you know the Array & Array Methods
+### Running the Application
 
-5. Make sure you know the Destructuring
+To start the application, you can use the following command:
 
-6. Make sure you know the Template Literals
+```
+pnpm run dev
+```
 
-7. Make sure you know the Ternary Operators
+This command will start the NextJS server and make the application accessible at `http://localhost:5173`.
 
-8. Make sure you know the ES Modules & Import / Export Syntax
+### Usage
+
+Once the application is up and running, you can access it in your web browser by visiting `http://localhost:5173`. From there, you can interact with the application's features and functionalities.
 
 ### License
 
@@ -50,4 +60,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com///blob/main/
 ### Authors
 
 - **Lynnxha** - _Noob Developer_ - [Lynnxha](https://github.com/Lynnxha) - \*\*
-- **ItzZess** - _Newbie Developer_ - [ItzRyz](https://github.com/ItzZess) - \*\*
+- **ItzZess** - _Newbie Developer_ - [ItzZess](https://github.com/ItzZess) - \*\*

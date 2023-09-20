@@ -1,35 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Learn React</title>
-
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
   </head>
   <body>
     <div id="root"></div>
-
-    <script type="text/babel">
-      const container = document.getElementById("root");
-      const root = ReactDOM.createRoot(container);
-
-      function Header({ author }) {
-        return root.render(
-          <h1>Learn React With {author ? author : "Lynnxha"} 🚀</h1>
-        );
-      }
-
-      function HomePage() {
-        return (
-          <>
-            <Header />
-            <Header author="Kibieptr" />
-          </>
-        );
-      }
-
-      root.render(<HomePage />);
-    </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
